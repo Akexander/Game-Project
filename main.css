@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  
+}
+
+
+h1 {
+  font-size: 50px;
+  margin: 50px;
+}
+
+p {
+  font-size: 18px;
+  margin: 50px;
+}
+
+
+@media (max-width: 500px) {
+  body {
+    color: blue;
+    font-family: cursive;
+  }
+  
+}
+
+@media (orientation: landscape) {
+  h1 {
+    color: red;
+  }
+}
+
+@media (max-width: 500px) {
+  body {
+    color: blue;
+    font-family: cursive;
+  }
+  
+}
+
+@media (orientation: portrait) {
+  h1 {
+    color: greenyellow;
+  }
+}
+
+@media (orientation: landscape) and (mix-width: 500px) {
+  h1 {
+    color: chartreuse;
+  }
+}
