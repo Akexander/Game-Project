@@ -4,19 +4,52 @@
   
 }
 
-
+/* 
 h1 {
-  font-size: 50px;
-  margin: 50px;
-}
-
-p {
   font-size: 18px;
   margin: 50px;
 }
 
+p {
+  font-size: 10px;
+  margin: 50px;
+}
 
-@media (max-width: 500px) {
+@media (min-width: 375px) {
+
+}
+
+@media (min-width: 768px) {
+  h1 {font-size: 28px;
+  color: blue;
+  }
+  p {
+    font-size: 18px;
+    color: crimson;
+  }
+}
+
+@media (min-width: 1440px) {
+  h1 {font-size: 48px;
+  color: pink;
+  }
+  p {
+    font-size: 28px;
+    color: rgb(55, 177, 82);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+/* @media (max-width: 500px) {
   body {
     color: blue;
     font-family: cursive;
@@ -37,7 +70,6 @@ p {
   }
   
 }
-
 @media (orientation: portrait) {
   h1 {
     color: greenyellow;
@@ -48,4 +80,4 @@ p {
   h1 {
     color: chartreuse;
   }
-}
+} */ */
