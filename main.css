@@ -59,7 +59,14 @@ body, .quote-input {
 
 }
 
+.correct {
+  color: #b9a626;
+}
 
+.incorrect {
+  color: red;
+  text-decoration: underline;
+}
 
 
 
