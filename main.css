@@ -416,7 +416,8 @@
 
 
 body, .quote-input {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 20px;
 }
 
 .container {
@@ -425,21 +426,22 @@ body, .quote-input {
   left: 20%;
   right: 20%;
   top: 40%;
-  background-color: #E7F59E;
+  background-color: #FFA5AB;
   border: 1px solid black;
   padding: 1rem;
   border-radius: 0.3rem;
   width: 60%;
   max-width: 90%;
-  height: 30%;
+  height: 35%;
   z-index: 10;
 }
 
 .timer {
   position: fixed;
   top: 5rem;
-  left: 40%;
+  left: 42%;
   font-size: 8rem;
+  font-family: 'Roboto Mono', monospace;
   color: #4E0110;
   font-weight: bolder;
 }
@@ -451,13 +453,15 @@ body, .quote-input {
 }
 
 .quote-input {
+  /* position: fixed; */
   background-color: rgba(51, 51, 51, 0.158);
   border: 1px solid #333;
   outline: none;
   width: 100%;
   height: 10rem;
-  margin: auto;
-  
+  /* margin: auto; */
+  margin-top: 50px;
+  margin-bottom: 5px;
   resize: none;
   padding: 1rem 1rem;
   font-size: 1rem ;
