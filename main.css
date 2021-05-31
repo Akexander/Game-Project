@@ -440,8 +440,7 @@ body, .quote-input {
   position: fixed;
   top: 5rem;
   left: 42%;
-  font-size: 8rem;
-  font-family: 'Roboto Mono', monospace;
+  font-size: 10rem;
   color: #4E0110;
   font-weight: bolder;
 }
@@ -475,7 +474,7 @@ body, .quote-input {
 }
 
 .correct {
-  color: #b9a626;
+  color: #2ce014;
 }
 
 .incorrect {
@@ -488,40 +487,6 @@ body, .quote-input {
 
 
 
-/* 
-h1 {
-  font-size: 18px;
-  margin: 50px;
-}
-
-p {
-  font-size: 10px;
-  margin: 50px;
-}
-
-@media (min-width: 375px) {
-
-}
-
-@media (min-width: 768px) {
-  h1 {font-size: 28px;
-  color: blue;
-  }
-  p {
-    font-size: 18px;
-    color: crimson;
-  }
-}
-
-@media (min-width: 1440px) {
-  h1 {font-size: 48px;
-  color: pink;
-  }
-  p {
-    font-size: 28px;
-    color: rgb(55, 177, 82);
-  }
-}
 
 
 
