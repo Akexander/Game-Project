@@ -5,32 +5,442 @@
   
 }
 
-body {
+
+
+.container-example-page {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(255, 255, 255, 0.897);
+  margin: 5px 5px;
+  z-index: 1;
+  }
+  
+  
+  
+  button {
+    position: fixed;
+    top: 50px;
+    left: 50px;
+    z-index: 999;
+    cursor: pointer;
+    
+  }
+  
+  .card-example-page-btn{
+    width: 100px;
+    height: 70px;
+    border-radius: 40px;
+    font-size: 40px;
+    color: #17301C70;
+    background:#ffffff00;
+    padding: 0;
+    border: none;
+    background: none;
+    text-decoration: none;
+  
+    
+  }
+  
+  /* iframe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    z-index: 10;
+    cursor: pointer; 
+    width: 50%;
+    height: 80%;
+    border: #17301C;
+    border-radius: 40px;
+    
+  
+  } */
+  
+  .card-example-page-1, .card-example-page-2, .card-example-page-3, .card-example-page-4, .card-example-page-5, .card-example-page-6, .card-example-page-7, .card-example-page-8, .card-example-page-9, .card-example-page-10, .card-example-page-11, .card-example-page-12,
+  .card-example-page-13, .card-example-page-14, .card-example-page-15, .card-example-page-16, .card-example-page-17, .card-example-page-18, .card-example-page-19, .card-example-page-20, .card-example-page-21, .card-example-page-22, .card-example-page-23, .card-example-page-24, .card-example-page-25, .card-example-page-26, .card-example-page-27, .card-example-page-28, .card-example-page-29, .card-example-page-20, .card-example-page-31, .card-example-page-32, .card-example-page-33, .card-example-page-34, .card-example-page-35, .card-example-page-36 {
+   
+    width: 100%;
+    height: 300px;
+    opacity: 0.5;
+  } 
+  
+  
+  
+  .card-example-page-1 {
+    
+      border: 1px solid black;
+      padding: 10px;
+      margin: 10px;
+      background-color: #47E5BC;
+    
+  }
+  
+  .card-example-page-2 {
+    
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    background-color: #81E4DA;
+  
+  }
+  
+  .card-example-page-3 {
+    
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    background-color: #b2b6bb;
+  
+  }
+  
+  .card-example-page-4 {
+    
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    background-color: #AECFDF;
+  
+  }
+  
+  .card-example-page-5 {
+    
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    background-color: #9F9FAD;
+  
+  }
+  
+  .card-example-page-6 {
+    
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    background-color: #b2b6bb;
+  
+  }
+  
+  .card-example-page-7 {
+    
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    background-color: #93748A;
+  
+  }
+  
+  .card-example-page-8 {
+    
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    background-color: #17301C;
+  
+  }
+  
+  .card-example-page-9 {
+    
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    background-color: #379392;
+  
+  }
+  
+  .card-example-page-10 {
+    
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    background-color: #4FB0C6;
+  
+  }
+  
+  .card-example-page-11 {
+    
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    background-color: #4F86C6;
+  
+  }
+  
+  // .card-example-page-12 {
+    
+  //   border: 1px solid black;
+  //   padding: 10px;
+  //   margin: 10px;
+  //   background-color: #b2b6bb;
+  
+  // }
+  
+  .card-example-page-13 {
+    
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    background-color: #744FC6;
+  
+  }
+  
+  .card-example-page-14 {
+    
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    background-color: #003844;
+  
+  }
+  
+  .card-example-page-15 {
+  
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px;
+  background-color: #006C67;
+  
+  }
+  
+  .card-example-page-16 {
+  
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px;
+  background-color: #B49FCC;
+  
+  }
+  
+  .card-example-page-17 {
+  
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px;
+  background-color: #F194B4;
+  
+  }
+  
+  .card-example-page-18 {
+  
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px;
+  background-color: #FFB100;
+  
+  }
+  
+  .card-example-page-19 {
+  
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px;
+  background-color: #FFEBC6;
+  
+  }
+  
+  .card-example-page-20 {
+  
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px;
+  background-color: #483D3F;
+  
+  }
+  
+  .card-example-page-21 {
+  
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px;
+  background-color: #058ED9;
+  
+  }
+  
+  .card-example-page-22 {
+  
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px;
+  background-color: #F4EBD9;
+  
+  }
+  
+  .card-example-page-23 {
+  
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px;
+  background-color: #CC3F0C;
+  
+  }
+  
+  // .card-example-page-24 {
+  
+  // border: 1px solid black;
+  // padding: 10px;
+  // margin: 10px;
+  // background-color: #b2b6bb;
+  
+  // }
+  
+  .card-example-page-25 {
+  
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px;
+  background-color: #A39A92;
+  
+  }
+  
+  .card-example-page-26 {
+    
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    background-color: #9A6D38;
+  
+  }
+  
+  .card-example-page-27 {
+  
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px;
+  background-color: #E28413;
+  
+  }
+  
+  .card-example-page-28 {
+  
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px;
+  background-color: #33673B;
+  
+  }
+  
+  .card-example-page-29 {
+  
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px;
+  background-color: #19231A;
+  
+  }
+  
+  .card-example-page-30 {
+  
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px;
+  background-color: #F56416;
+  
+  }
+  
+  .card-example-page-31 {
+  
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px;
+  background-color: #987284;
+  
+  }
+  
+  .card-example-page-32 {
+  
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px;
+  background-color: #75B9BE;
+  
+  }
+  
+  .card-example-page-33 {
+  
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px;
+  background-color: #DD4B1A;
+  
+  }
+  
+  .card-example-page-34 {
+  
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px;
+  background-color: #D0D6B5;
+  
+  }
+  
+  .card-example-page-35 {
+  
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px;
+  background-color: #F9B5AC;
+  
+  }
+  
+  // .card-example-page-36 {
+  
+  // border: 1px solid black;
+  // padding: 10px;
+  // margin: 10px;
+  // background-color: #b2b6bb;
+  
+  // }
+  
+  
+
+
+
+
+
+/* Bellow is the main CSS for the game */
+/* body {
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
   margin: 0;
   background-color: cyan;
-}
+} */
+
+
+
 
 body, .quote-input {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .container {
-  background-color: #F0DB4F;
+  position: fixed;
+  justify-content: center;
+  left: 20%;
+  right: 20%;
+  top: 40%;
+  background-color: #E7F59E;
+  border: 1px solid black;
   padding: 1rem;
-  border-radius: 1rem;
-  width: 700px;
+  border-radius: 0.3rem;
+  width: 60%;
   max-width: 90%;
+  height: 30%;
+  z-index: 10;
 }
 
 .timer {
-  position: absolute;
+  position: fixed;
   top: 5rem;
+  left: 40%;
   font-size: 8rem;
-  color: #F0DB4F;
+  color: #4E0110;
   font-weight: bolder;
 }
 
@@ -41,14 +451,15 @@ body, .quote-input {
 }
 
 .quote-input {
-  background-color: transparent;
-  border: 2px solid #A1922E;
+  background-color: rgba(51, 51, 51, 0.158);
+  border: 1px solid #333;
   outline: none;
   width: 100%;
-  height: 8rem;
+  height: 10rem;
   margin: auto;
+  
   resize: none;
-  padding: .5rem 1rem;
+  padding: 1rem 1rem;
   font-size: 1rem ;
   border-radius: 0.5rem;
 }
