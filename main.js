@@ -16,15 +16,15 @@ quoteInputElement.addEventListener('input', () => {
   //    This forEach is designed to register/log  the letters as correct or incorrect
    let correct = true //Stating by default that everything is true
    arrayQuote.forEach((characterSpan, index) => {
-     const character = arrayValue[index]
-     if (character === null) {
+     const character = arrayValue[index] //This will match the characters typed to the characters in the quote
+     if (character === null) { //null means that the character has not been typed yet
        characterSpan.classList.remove('correct')
        characterSpan.classList.remove('incorrect')
        correct = false //Stating false because player has not activated it 
      } else if (character === characterSpan.innerText) {
-       characterSpan.classList.add('correct')
+       characterSpan.classList.add('correct') 
        characterSpan.classList.remove('incorrect')
-     } else {
+     } else { //if they are not equal to each other
       characterSpan.classList.remove('correct')
       characterSpan.classList.add('incorrect')
       correct = false //Stating false because player has typed incorrectly 
@@ -40,10 +40,11 @@ function getRandomQuote() {
   .then(data => data.content)
 }
 
+// Asynchronous function will run out of sync with the rest of the code
 async function renderNewQuote() {
   const quote = await getRandomQuote()
   quoteDisplayElement.innerHTML = '' //insert quote into quote input
-  quote.split('').forEach(character => {   //forLoop seperates each letter
+  quote.split('').forEach(character => {   //forLoop separates each letter
     const characterSpan = document.createElement('span') //captures each individual letter and gives it a span
     characterSpan.innerText = character
     quoteDisplayElement.appendChild(characterSpan)
